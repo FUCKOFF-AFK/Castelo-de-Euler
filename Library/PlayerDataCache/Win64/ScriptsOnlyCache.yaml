@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Erros
     - MainMenu
+    - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -60,19 +62,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 2072}
+      Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -115,21 +117,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 2072}
+      Script: {instanceID: 1970}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3406}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 3408}
+    - Class: 114
+      Script: {instanceID: 4252}
+    - Class: 114
+      Script: {instanceID: 17506}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -172,19 +178,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 2072}
+      Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,19 +233,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 2072}
+      Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -341,6 +347,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2922e24a4e2554a312ee2a049a128d06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -779,10 +791,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 157753a19ef05004b45c98f1ee93f1e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Erros
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/Game Over.unity
   - Assets/Scenes/Win.unity
-  playerPath: C:/Users/ander/Desktop/Castelo de Euler.exe
+  playerPath: F:/Castelo-de-Euler/Build/Castelo de Euler.exe
